@@ -37,7 +37,7 @@ public class PacienteServicio {
     @POST
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public Paciente addPaciente(Paciente emp) {
-        return PacienteDAO.addPaciente(emp);
+         return PacienteDAO.addPaciente(emp);
     }
     
 }
